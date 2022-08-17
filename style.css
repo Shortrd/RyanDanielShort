@@ -1,0 +1,16 @@
+/* ---- Universal Styles ---- */
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('Resources/Fonts/Metropolis-Regular.woff2') format('woff2'),
+         url('Resources/Fonts/Metropolis-Regular.woff') format('woff'),
+         url('Resources/Fonts/Metropolis-Regular.ttf') format('truetype')
+  }
+
+html {
+    font-size: 16px;
+}
+
+* {
+    font-family: 'Metropolis';
+}
