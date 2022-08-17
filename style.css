@@ -14,3 +14,20 @@ html {
 * {
     font-family: 'Metropolis';
 }
+
+/* ---- Header Styles ---- */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin-left: 20rem;
+}
+
+header li {
+    margin: 0.75rem;
+    font-size: 1.2rem;
+}
