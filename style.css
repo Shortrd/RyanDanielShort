@@ -138,8 +138,8 @@ main p {
 .top-3-showcase {
     display: flex;
     justify-content: space-around;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .project-one, .project-two, .project-three {
