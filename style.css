@@ -77,7 +77,26 @@ html {
 
 .social {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 1rem 0;
+    padding: 0;
 }
+
+.social li {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem 0;
+}
+
+.social svg {
+    scale: 1;
+    width: 100%;
+}
+
+/* Link Styles */
 
 a:link {
     text-decoration: none;
