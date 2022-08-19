@@ -9,6 +9,7 @@
 
 html {
     font-size: 16px;
+    background-color: #1d1d1d;
 }
 
 * {
@@ -16,6 +17,10 @@ html {
 }
 
 /* Body Styles */
+body {
+    margin: 0;
+}
+
 .main-menu span {
     display: flex;
     align-self: center;
@@ -95,6 +100,52 @@ html {
     scale: 1;
     width: 100%;
     color: #64ffda;
+}
+
+/* Main Content Styles */
+main {
+    left: 0;
+    top: 0;
+    margin: 4rem 8rem 2rem 8rem;
+    padding: 0 4rem;
+    color: #FFFFF7;
+}
+
+main h1 {
+    font-size: 2rem;
+}
+
+main h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+main h3 {
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+main p {
+    width: 60%;
+    line-height: 1.5rem;
+}
+
+.name {
+    text-decoration: underline;
+    text-decoration-color: #64ffda;
+}
+
+.top-3-showcase {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.project-one, .project-two, .project-three {
+    border: 1px solid white;
+    width: 20rem;
+    height: 15rem;
 }
 
 /* Link Styles */
