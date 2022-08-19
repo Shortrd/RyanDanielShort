@@ -15,19 +15,70 @@ html {
     font-family: 'Metropolis';
 }
 
-/* ---- Header Styles ---- */
-header {
+/* Body Styles */
+.main-menu span {
     display: flex;
-    justify-content: center;
+    align-self: center;
+    color: #a5a5a5;
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
 }
 
-header ul {
+.main-menu {
+    position: fixed;
     display: flex;
+    flex-direction: column;
+    width: 8rem;
+    height: 100vh;
+    margin: 0rem;
+    padding: 0rem;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: auto;
+    background-color: #181818;
+}
+
+.main-menu-logo {
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    margin: 1rem auto 1rem auto;
+}
+
+#logo {
+    color: #64ffda;
+    fill: none;
+}
+
+.main-menu-logo path {
+    z-index: 12;
+}
+
+.main-menu-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    margin-top: 1.5rem;
+    border-top: 1px solid #282828;
+}
+
+.about, .skills, .work, .contact {
+    color: #64ffda;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    padding: 1rem auto;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #282828;
+}
+
+.social {
     list-style: none;
-    margin-left: 20rem;
 }
 
-header li {
-    margin: 0.75rem;
-    font-size: 1.2rem;
+a:link {
+    text-decoration: none;
 }
