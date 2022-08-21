@@ -102,6 +102,22 @@ body {
     color: #64ffda;
 }
 
+.resume-container {
+    display: flex;
+    justify-content: center;
+}
+
+.resume-button {
+    color: #64ffda;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1rem;
+    line-height: 1;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
 /* Main Content Styles */
 main {
     left: 0;
@@ -138,14 +154,31 @@ main p {
 .top-three-showcase {
     display: flex;
     justify-content: space-around;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
 }
 
 .project-one, .project-two, .project-three {
     border: 1px solid white;
     width: 20rem;
     height: 15rem;
+}
+
+.section {
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+.section::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -1rem;
+    left: 11rem;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #353535;
 }
 
 /* Link Styles */
