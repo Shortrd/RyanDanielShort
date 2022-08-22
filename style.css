@@ -176,6 +176,7 @@ main p {
     margin: 1rem;
 }
 
+/*
 .contact-header:before, .contact-header:after {
     content: "";
     width: 300px;
@@ -183,6 +184,7 @@ main p {
     background: #ff6489;
     position: absolute;
 }
+*/
 
 .contact-header:before {
     top: 5.5rem;
@@ -223,7 +225,7 @@ form {
 }
 
 .contact-form-input {
-    margin-top: 0.2rem;
+    margin-top: 0.4rem;
     width: 100%;
     height: 2rem;
     font-size: 1.3rem;
@@ -258,6 +260,32 @@ form {
     padding: 0.5rem 1rem;
     margin: 2rem auto;
     font-size: 1.3rem;
+}
+
+.contact-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-containers p {
+    margin: 0 0 0 1.5rem;
+    white-space: nowrap;
+    width: auto;
+    font-size: 1.3rem;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.contact-containers svg {
+    scale: 2;
+    color: #64ffda;
 }
 
 /* Link Styles */
