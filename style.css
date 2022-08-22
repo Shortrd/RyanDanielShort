@@ -169,18 +169,6 @@ main p {
     margin-left: 4rem;
 }
 
-.section::after {
-    content: "";
-    display: block;
-    position: relative;
-    top: -1rem;
-    left: 11rem;
-    width: 300px;
-    height: 1px;
-    margin-left: 20px;
-    background-color: #353535;
-}
-
 /* Link Styles */
 
 a:link {
